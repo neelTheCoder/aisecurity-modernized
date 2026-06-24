@@ -33,17 +33,6 @@ for ident in rec.identify(frame):           # frame = BGR numpy array
 | Encryption | AES (unauthenticated), `pycryptodome` | **AES-256-GCM + scrypt**, `cryptography` | Authenticated (tamper-detecting); passphrase-derived key, no key blob on disk. |
 | Packaging | pinned `requirements.txt`, no tests | `pyproject.toml`, unit tests, CI, type hints | Reproducible and maintainable. |
 
-The full reasoning is in [`docs/MIGRATION.md`](docs/MIGRATION.md).
-
-### Why cosine matching instead of the original SVM?
-
-ArcFace is *trained* with an angular-margin loss so that cosine similarity
-between L2-normalised embeddings **is** the identity metric. Comparing a probe
-directly against each enrolled person's centroid is therefore simpler and
-stronger than a learned SVM — and it solves two problems the SVM couldn't: it
-rejects unknown people (an SVM forces every face onto a known class), and you
-can enroll or remove a student instantly without retraining a classifier.
-
 ---
 
 ## Architecture
