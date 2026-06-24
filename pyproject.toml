@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aisecurity"
+version = "2.0.0"
+description = "Privacy-preserving facial recognition with ArcFace + SCRFD on ONNX Runtime"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Neel Ahuja" }]
+keywords = ["facial-recognition", "arcface", "scrfd", "onnx", "insightface", "computer-vision"]
+
+dependencies = [
+    "insightface>=0.7",
+    "onnxruntime>=1.16",
+    "opencv-python>=4.8",
+    "numpy>=1.24",
+    "cryptography>=42",
+]
+
+[project.optional-dependencies]
+gpu = ["onnxruntime-gpu>=1.16"]
+kiosk = ["websocket-client>=1.6"]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[project.scripts]
+aisec-enroll = "scripts.enroll:main"
+aisec-recognize = "scripts.recognize:main"
+
+[tool.setuptools]
+packages = ["aisecurity", "scripts"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

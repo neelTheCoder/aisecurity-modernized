@@ -1,0 +1,10 @@
+# Core inference stack (CPU / Apple Silicon). For an NVIDIA GPU or Jetson,
+# swap onnxruntime for onnxruntime-gpu.
+insightface>=0.7
+onnxruntime>=1.16
+opencv-python>=4.8
+numpy>=1.24
+cryptography>=42
+
+# Optional: only needed to stream events to the Django kiosk server.
+websocket-client>=1.6

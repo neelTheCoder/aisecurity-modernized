@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Models & data (downloaded on first run / never commit faces or galleries)
+*.onnx
+*.engine
+~/.insightface/
+data/
+*.aisec
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.DS_Store
