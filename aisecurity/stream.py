@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Real-time recognition loop and event de-bouncing.
 
 Replaces the original ``real_time_recognize`` method. Two ideas carried over

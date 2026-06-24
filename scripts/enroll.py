@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Build an encrypted identity gallery from a directory of face images.
 
 Usage:

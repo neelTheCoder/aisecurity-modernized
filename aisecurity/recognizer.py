@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """High-level recognizer: ties the model engine to the identity gallery.
 
 This is the object most callers use. It mirrors the role of the original

@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Authenticated encryption for the embedding gallery.
 
 The original project's strongest idea was its privacy model: store only

@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 # Core inference stack (CPU / Apple Silicon). For an NVIDIA GPU or Jetson,
 # swap onnxruntime for onnxruntime-gpu.
 insightface>=0.7

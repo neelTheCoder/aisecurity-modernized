@@ -1,3 +1,4 @@
+<!-- Ported from millburnai/aisecurity. -->
 # Migration notes: 2021 stack → 2026 stack
 
 This document explains the engineering decisions behind the refactor. It's

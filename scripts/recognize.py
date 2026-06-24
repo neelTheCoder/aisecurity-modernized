@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Run real-time facial recognition against an encrypted gallery.
 
 Usage:

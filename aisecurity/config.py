@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Runtime configuration for the recognition pipeline.
 
 Everything tunable lives here so that detector/embedder/matcher behaviour can be

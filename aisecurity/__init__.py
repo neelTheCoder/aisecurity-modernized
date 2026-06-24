@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """AI Security — modern, privacy-preserving facial recognition.
 
 A 2026 refactor of the original Millburn AI ``aisecurity`` project. The core

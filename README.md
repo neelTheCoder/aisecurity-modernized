@@ -1,3 +1,4 @@
+<!-- Ported from millburnai/aisecurity. -->
 # AI Security — Facial Recognition Kiosk (2026 refactor)
 
 Privacy-preserving facial recognition for monitoring entry/exit at a school

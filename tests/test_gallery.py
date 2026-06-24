@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Tests for gallery matching and encrypted persistence.
 
 These use synthetic embeddings, so they run fast and need no model download.

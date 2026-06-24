@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Face detection + embedding, wrapped around InsightFace / ONNX Runtime.
 
 This module is the modern replacement for the original ``facenet.py`` +

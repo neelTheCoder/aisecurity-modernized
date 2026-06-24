@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """The identity gallery: enrolled people and nearest-neighbour matching.
 
 Design note — *why not an SVM/KNN classifier?*  The original project trained a

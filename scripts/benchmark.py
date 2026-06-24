@@ -1,3 +1,4 @@
+# Ported from millburnai/aisecurity.
 """Measure end-to-end latency of the detect+embed pipeline.
 
 Useful for picking an execution provider and ``det_size`` for a target device
