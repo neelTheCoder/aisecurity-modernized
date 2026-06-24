@@ -22,12 +22,7 @@ for ident in rec.identify(frame):           # frame = BGR numpy array
 
 ---
 
-## What changed from the original
-
-The original system worked, but its core was a 2015-era model stack on
-TensorFlow 1. This refactor replaces the models and the runtime while keeping
-the parts of the original design that still hold up (the privacy model and the
-kiosk integration).
+## System
 
 | Component | Original (≈2021) | This version (2026) | Why |
 |---|---|---|---|
